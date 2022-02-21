@@ -1,0 +1,170 @@
+body{
+    padding: 5px;
+}
+.container>.menu>header>img{
+    width: 100%;
+    height: 400px;
+}
+.container>.menu>header>p{
+    float: left;
+}
+.dndk{
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    float: right;
+    border-radius: 10px 0px 0px 10px ;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .menu header h1{
+    text-align: center;
+    font-size: 70px;
+}
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+
+}
+.container>.menu{
+    line-height: 30px;
+    background-color:rgb(207, 206, 206);
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    text-align:right;
+}
+.menu>ul>li>a:hover{
+    color: white;
+}
+.menu>ul>li>a{
+    color: black;
+    font-size: larger;
+    font-weight: 700px;
+    text-decoration: none;
+}
+#test{
+    /* border:3px solid #00ff00; */
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    
+}
+article{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    float: left;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+    margin: 5px;
+    /* text-align: none; */
+    width: 200px;
+    float: left;
+}
+.san-pham:hover{
+    color: darkgray;
+    background-color:rgb(197, 185, 188);
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: rgb(115, 122, 122);
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    color: white;
+}
+.div>nav>ul>li>ul>li:hover{
+    display: inline-block;
+}
+
+.diachi{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.bangdo{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+
+
+
+
+
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:gray;
+    text-align:left;
+}
+.menu>ul>li>a:hover{
+    color: black;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+
+}
+.menu ul ul a{
+    display: block;
+    line-height:30 px;
+    color:black;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color:gray;
+    color:white;
+}
